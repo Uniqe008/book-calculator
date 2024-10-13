@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Book Reading Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Book Reading Calculator</h1>
+        <input type="number" id="wordsPerSecond" placeholder="Words per second" min="1">
+        <input type="number" id="wordsPerBook" placeholder="Average words per book" min="1" value="80000">
+        <input type="number" id="minutesPerDay" placeholder="Reading time per day (minutes)" min="1">
+        <button onclick="calculateBooks()">Calculate</button>
+        <div class="result" id="result"></div>
+        <p>Made By <span><br>Dalkhas Mnla-Ali</span><br> 13/10/2024</p>
+    </div>
+
+    <script src="main.js">
+    </script>
+</body>
+</html>

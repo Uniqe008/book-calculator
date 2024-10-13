@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(68, 75, 81); 
+    
+}
+
+.container {
+    width: 20rem;
+    margin: auto;
+    padding: 20px; 
+    background-color: rgb(84, 90, 103);
+    border-radius: 2rem 5rem 2rem 0;
+    color: white;
+    position: relative;
+    top: 10rem;
+    box-shadow: 5px 5px rgb(38, 41, 47)
+}
+
+input { 
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    box-shadow: 5px 5px rgb(38, 41, 47);
+    background-color: rgb(68, 75, 81);
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button {
+    width: 25%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: rgb(69, 73, 79);
+    box-shadow: 5px 5px rgb(38, 41, 47)
+}
+
+.result { 
+    margin-top: 20px; 
+}
+
+p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+p span {
+    color: rgb(38, 41, 47);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+    outline: 0;
+}
